@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/code-assessment/static/css/main.a0c606c0.css",
+    "main.css": "/code-assessment/static/css/main.39ff45bb.css",
     "main.js": "/code-assessment/static/js/main.04a1559f.js",
     "static/js/453.89c15e09.chunk.js": "/code-assessment/static/js/453.89c15e09.chunk.js",
     "static/media/thumbnail2.png": "/code-assessment/static/media/thumbnail2.e176a5bbf0a75f2298a1.png",
@@ -9,12 +9,12 @@
     "static/media/Facebook_f_logo_(2019).svg.png": "/code-assessment/static/media/Facebook_f_logo_(2019).svg.10985d5df1f2a3c78af6.png",
     "static/media/apple.png": "/code-assessment/static/media/apple.af807ae2513e493c27cc.png",
     "index.html": "/code-assessment/index.html",
-    "main.a0c606c0.css.map": "/code-assessment/static/css/main.a0c606c0.css.map",
+    "main.39ff45bb.css.map": "/code-assessment/static/css/main.39ff45bb.css.map",
     "main.04a1559f.js.map": "/code-assessment/static/js/main.04a1559f.js.map",
     "453.89c15e09.chunk.js.map": "/code-assessment/static/js/453.89c15e09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0c606c0.css",
+    "static/css/main.39ff45bb.css",
     "static/js/main.04a1559f.js"
   ]
 }
