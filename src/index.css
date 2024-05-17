@@ -4,7 +4,7 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden; /* Prevent scrolling */
+  overflow: hidden;
 }
 
 .signup-container {
@@ -12,24 +12,24 @@ body {
   justify-content: flex-end;
   align-items: stretch;
   height: 100vh;
-  background-image: url('./assets/thumbnail.jpg'); /* Set the background image */
-  background-size: cover; /* Ensure the background image covers the container */
-  background-position: center; /* Center the background image */
-  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-image: url('./assets/thumbnail.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
   font-family: 'Roboto', sans-serif;
-  overflow: hidden; /* Prevent scrolling */
+  overflow: hidden;
 }
 
 .signup-form {
-  background-color: rgba(255, 255, 255, 0.9); /* Add semi-transparent white background to form */
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 2rem;
   border-radius: 8px 0 0 8px;
   box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
-  width: 450px; /* Adjust this value to change the width of the form */
+  width: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; /* Center the contents horizontally */
+  align-items: center;
 }
 
 .logo {
@@ -37,7 +37,8 @@ body {
 }
 
 .signup-form img.google-logo {
-  width: 100px;   height: 100px; 
+  width: 100px;   
+  height: 100px; 
   margin-bottom: 1rem; 
   border-radius: 50%;
 }
@@ -110,4 +111,18 @@ button:hover {
 
 .social-widget span {
   font-size: 0.875rem;
+}
+
+/* Adjustments for mobile devices */
+@media (max-width: 768px) {
+  .signup-container {
+    justify-content: center; /* Center the form on the screen */
+  }
+
+  .signup-form {
+    width: 90%;
+    padding: 1rem;
+    border-radius: 30px; /* Remove border-radius for mobile */
+    margin-top: 200px; /* Add top margin to lower the form */
+  }
 }

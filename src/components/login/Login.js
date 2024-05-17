@@ -51,7 +51,7 @@ const Signup = () => {
           />
         </div>
         <button type="submit">Sign Up</button>
-        <p>- OR -</p>
+        <p>- Or Sign Up with -</p>
         <div className="social-widgets">
           <div className="social-widget">
             <img src={require('../../assets/Google__G__logo.svg.png')} alt="Google" className="social-logo" />
