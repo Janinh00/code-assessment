@@ -12,10 +12,10 @@ body {
   justify-content: flex-end;
   align-items: stretch;
   height: 100vh;
-  background-image: url('./assets/thumbnail.jpg'); 
+  background-image: url('./assets/thumbnail2.png'); 
   background-color: #e9f7e6;
-  background-size: 80%; /* Adjust the percentage as needed */
-  background-position: center; 
+  background-size: 30%; /* Adjust the percentage as needed */
+  background-position: 20%; 
   background-repeat: no-repeat; 
   font-family: 'Roboto', sans-serif;
   overflow: hidden;
@@ -26,7 +26,7 @@ body {
   padding: 1.5rem; /* Reduced padding */
   border-radius: 8px 0 0 8px;
   box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
-  width: 400px; /* Reduced width */
+  width: 40%; /* Reduced width */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -163,10 +163,9 @@ button:hover {
 @media (max-width: 768px) {
   .signup-container {
     justify-content: center;
-    background-image: url('./assets/thumbnail2.png');
     background-color: #e9f7e6;
     background-size: cover; 
-    background-position: center; 
+    background-position: 25%; 
     background-repeat: no-repeat; 
     overflow-y: scroll;
   }
@@ -174,7 +173,7 @@ button:hover {
   .signup-form {
     width: 100%;
     border-radius: 20px; /* Adjusted border-radius */
-    margin-top: 150px; /* Reduced margin */
+    margin-top: 80%; /* Reduced margin */
     padding-top: 1rem;
     opacity: 1; /* Ensure full opacity on mobile as well */
     background-color: white;
