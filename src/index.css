@@ -163,7 +163,7 @@ button:hover {
 @media (max-width: 768px) {
   .signup-container {
     justify-content: center;
-    /* background-image: url('./assets/thumbnail2.png'); */
+    background-image: none;
     background-color: #e9f7e6;
     background-size: cover; 
     background-position: center; 
