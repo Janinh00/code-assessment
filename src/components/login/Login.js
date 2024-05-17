@@ -9,7 +9,7 @@ const Signup = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Handle signup logic here
+
     console.log('Full Name:', fullName);
     console.log('Email:', email);
     console.log('Password:', password);
@@ -18,8 +18,8 @@ const Signup = () => {
   return (
     <div className="signup-container">
       <form onSubmit={handleSubmit} className="signup-form">
-        <h1 className="logo">Coding Comp</h1>
-        <h2>Sign Up</h2>
+        <h1 className="logo">Hackathon</h1>
+        <h2>Create Account</h2>
         <div className="form-group">
           <label htmlFor="fullName">Full Name:</label>
           <input

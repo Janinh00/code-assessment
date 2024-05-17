@@ -37,11 +37,9 @@ body {
 }
 
 .signup-form img.google-logo {
-  width: 100px; /* Adjust the size of the logo */
-  height: 100px; /* Ensure height is the same as width for a perfect circle */
-  margin-bottom: 1rem; /* Space between the logo and the heading */
-  border-radius: 50%; /* Makes the image circular */
-  object-fit: cover; /* Ensures the image covers the entire container without distortion */
+  width: 100px;   height: 100px; 
+  margin-bottom: 1rem; 
+  border-radius: 50%;
 }
 
 .signup-form h2 {
@@ -52,7 +50,7 @@ body {
 
 .form-group {
   margin-bottom: 1rem;
-  width: 100%; /* Ensure form group takes full width */
+  width: 100%; 
 }
 
 .form-group label {
@@ -62,22 +60,22 @@ body {
 
 .form-group input,
 button {
-  width: 100%; /* Ensures the input fields and button have the same width */
+  width: 100%;
   padding: 0.5rem;
   border: 1px solid #ccc;
-  border-radius: 20px; /* Makes the input fields and button curved */
-  box-sizing: border-box; /* Ensures padding doesn't affect the width */
+  border-radius: 20px;
+  box-sizing: border-box;
 }
 
 button {
-  margin-top: 1rem; /* Adds space between the last input field and the button */
+  margin-top: 1rem;
   border: none;
   background-color: #608564;
   color: white;
   font-size: 1rem;
   cursor: pointer;
   font-weight: 700;
-  padding: 0.75rem; /* Ensures button has adequate padding */
+  padding: 0.75rem;
 }
 
 button:hover {
@@ -85,10 +83,10 @@ button:hover {
 }
 
 .social-widgets {
-  margin-top: 1rem; /* Space between the sign-up button and social buttons */
-  display: flex; /* Display widgets horizontally */
-  justify-content: space-between; /* Space widgets evenly */
-  width: 100%; /* Ensure social buttons take full width */
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .social-widget {
@@ -99,17 +97,17 @@ button:hover {
   border-radius: 20px;
   padding: 0.5rem;
   cursor: pointer;
-  flex: 1; /* Make all widgets equal width */
-  justify-content: center; /* Center the content horizontally */
-  margin: 0 0.5rem; /* Add space between widgets */
+  flex: 1;
+  justify-content: center;
+  margin: 0 0.5rem;
 }
 
 .social-widget img.social-logo {
-  width: 24px; /* Make the images smaller */
+  width: 24px;
   height: 24px;
   margin-right: 0.5rem;
 }
 
 .social-widget span {
-  font-size: 0.875rem; /* Adjust font size */
+  font-size: 0.875rem;
 }
