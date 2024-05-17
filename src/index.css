@@ -1,25 +1,11 @@
 /* src/Signup.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
-
-/* Import Biko font */
-@font-face {
-  font-family: 'Biko';
-  src: url('./assets/Biko_Bold.otf') format('woff2'),
-       url('./assets/Biko_Regular.otf') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* Use Biko font for all elements */
-body, .signup-container, .signup-form, .logo, .signup-form h2, .form-group label, .form-group input, button, .or, .social-widgets, .social-widget span, .login-prompt, .login-prompt a {
-  font-family: 'Biko', sans-serif;
-}
-
 
 .signup-container {
   display: flex;
@@ -31,6 +17,7 @@ body, .signup-container, .signup-form, .logo, .signup-form h2, .form-group label
   background-size: 80%; /* Adjust the percentage as needed */
   background-position: center; 
   background-repeat: no-repeat; 
+  font-family: 'Roboto', sans-serif;
   overflow: hidden;
 }
 
@@ -50,6 +37,7 @@ body, .signup-container, .signup-form, .logo, .signup-form h2, .form-group label
   color: #74a879;
   text-align: center;
   font-size: 2rem; /* Added font size */
+  font-family: "biko";
 }
 
 .signup-form img.google-logo {
@@ -70,9 +58,24 @@ body, .signup-container, .signup-form, .logo, .signup-form h2, .form-group label
   width: 100%; 
 }
 
+.form-group input:focus {
+  border-color: rgb(244, 244, 244) !important; /* Added !important to ensure specificity */
+  outline: none; /* Remove the default outline */
+  box-shadow: 0 0 0 2px rgb(226, 226, 226); /* Optional: add a box shadow to maintain focus indication */
+}
+
+.form-group input::placeholder {
+  color: #ccc;
+}
+
 .form-group label {
   display: block;
-  margin-bottom: 0.25rem; /* Reduced margin */
+  margin-bottom: 0.25rem;
+  color: gray;
+}
+
+.social-widget {
+  width: auto; /* Adjust the width as needed */
 }
 
 .form-group input,
@@ -175,7 +178,7 @@ button:hover {
 
   .logo {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .form-group input,

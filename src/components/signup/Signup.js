@@ -39,6 +39,7 @@ const Signup = () => {
         <div className="form-group">
           <label htmlFor="fullName">Full Name:</label>
           <input
+          placeholder='Enter your full name'
             type="text"
             id="fullName"
             value={fullName}
@@ -50,6 +51,7 @@ const Signup = () => {
         <div className="form-group">
           <label htmlFor="email">Email:</label>
           <input
+          placeholder='Enter your email'
             type="email"
             id="email"
             value={email}
@@ -61,6 +63,7 @@ const Signup = () => {
         <div className="form-group">
           <label htmlFor="password">Password:</label>
           <input
+          placeholder='Enter your password'
             type="password"
             id="password"
             value={password}
@@ -79,7 +82,7 @@ const Signup = () => {
             <img src={require('../../assets/Facebook_f_logo_(2019).svg.png')} alt="Facebook" className="social-logo" />
           </div>
           <div className="social-widget">
-            <img src={require('../../assets/Apple_logo_black.svg.png')} alt="Apple" className="social-logo" />
+            <img src={require('../../assets/apple.png')} alt="Apple" className="social-logo" />
           </div>
         </div>
         <p className="login-prompt">Already have an account? <a href="/login">Log in</a></p>
