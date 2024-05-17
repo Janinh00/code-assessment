@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/code-assessment/static/css/main.1d2e8986.css",
-    "main.js": "/code-assessment/static/js/main.6e2814d1.js",
+    "main.css": "/code-assessment/static/css/main.fade5a51.css",
+    "main.js": "/code-assessment/static/js/main.115daf12.js",
     "static/js/453.89c15e09.chunk.js": "/code-assessment/static/js/453.89c15e09.chunk.js",
     "static/media/thumbnail2.png": "/code-assessment/static/media/thumbnail2.e176a5bbf0a75f2298a1.png",
     "static/media/Google__G__logo.svg.png": "/code-assessment/static/media/Google__G__logo.svg.c5dea6c44d36b8594480.png",
@@ -9,12 +9,12 @@
     "static/media/Facebook_f_logo_(2019).svg.png": "/code-assessment/static/media/Facebook_f_logo_(2019).svg.10985d5df1f2a3c78af6.png",
     "static/media/Apple_logo_black.svg.png": "/code-assessment/static/media/Apple_logo_black.svg.4b1118e0207d018af2d7.png",
     "index.html": "/code-assessment/index.html",
-    "main.1d2e8986.css.map": "/code-assessment/static/css/main.1d2e8986.css.map",
-    "main.6e2814d1.js.map": "/code-assessment/static/js/main.6e2814d1.js.map",
+    "main.fade5a51.css.map": "/code-assessment/static/css/main.fade5a51.css.map",
+    "main.115daf12.js.map": "/code-assessment/static/js/main.115daf12.js.map",
     "453.89c15e09.chunk.js.map": "/code-assessment/static/js/453.89c15e09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d2e8986.css",
-    "static/js/main.6e2814d1.js"
+    "static/css/main.fade5a51.css",
+    "static/js/main.115daf12.js"
   ]
 }
