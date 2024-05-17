@@ -32,7 +32,9 @@ const Signup = () => {
   return (
     <div className="signup-container">
       <form onSubmit={handleSubmit} className="signup-form">
-        <h1 className="logo centered-text">IDEA<br />hackathon<br />2024</h1>
+        <h1 className="logo">
+          &#123;IDEA Hackathon 2024&#125;
+        </h1>
         <h2>Create Account</h2>
         <div className="form-group">
           <label htmlFor="fullName">Full Name:</label>

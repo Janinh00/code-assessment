@@ -23,10 +23,10 @@ body {
 
 .signup-form {
   background-color: rgba(255, 255, 255, 0.9);
-  padding: 2rem;
+  padding: 1.5rem; /* Reduced padding */
   border-radius: 8px 0 0 8px;
   box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
-  width: 450px;
+  width: 400px; /* Reduced width */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,33 +35,31 @@ body {
 
 .logo {
   color: #74a879;
-}
-
-.hackathon {
-  color: black;
+  text-align: center;
+  font-size: 2rem; /* Added font size */
 }
 
 .signup-form img.google-logo {
-  width: 100px;   
-  height: 100px; 
+  width: 80px;   /* Reduced size */
+  height: 80px; 
   margin-bottom: 1rem; 
   border-radius: 50%;
 }
 
 .signup-form h2 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem; /* Reduced margin */
   text-align: center;
   font-weight: 700;
 }
 
 .form-group {
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem; /* Reduced margin */
   width: 100%; 
 }
 
 .form-group label {
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem; /* Reduced margin */
 }
 
 .form-group input,
@@ -74,7 +72,7 @@ button {
 }
 
 button {
-  margin-top: 1rem;
+  margin-top: 0.75rem; /* Reduced margin */
   border: none;
   background-color: #608564;
   color: white;
@@ -89,13 +87,13 @@ button:hover {
 }
 
 .or {
-  color: gray; /* Set the text color to gray */
+  color: gray;
   text-align: center;
-  margin: 1rem 0; /* Adjust the margin for spacing */
+  margin: 0.75rem 0; /* Reduced margin */
 }
 
 .social-widgets {
-  margin-top: 1rem;
+  margin-top: 0.75rem; /* Reduced margin */
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -110,7 +108,7 @@ button:hover {
   cursor: pointer;
   flex: 1;
   justify-content: center;
-  margin: 0 0.5rem;
+  margin: 0 0.25rem; /* Reduced margin */
 }
 
 .social-widget img.social-logo {
@@ -119,17 +117,12 @@ button:hover {
   margin-right: 0.5rem;
 }
 
-/* src/Signup.css */
-.centered-text {
-  text-align: center;
-}
-
 .social-widget span {
   font-size: 0.875rem;
 }
 
 .login-prompt {
-  margin-top: 1rem;
+  margin-top: 0.75rem; /* Reduced margin */
   text-align: center;
   font-size: 0.875rem;
 }
@@ -152,8 +145,8 @@ button:hover {
 /* Adjustments for mobile devices */
 @media (max-width: 768px) {
   .signup-container {
-    justify-content: center; /* Center the form on the screen */
-    background-image: url('./assets/thumbnail2.png'); /* New background image for mobile */
+    justify-content: center;
+    background-image: url('./assets/thumbnail2.png');
     background-color: #e9f7e6;
     background-size: cover; 
     background-position: center; 
@@ -162,34 +155,35 @@ button:hover {
 
   .signup-form {
     width: 90%;
-    padding: 1.5rem; /* More consistent padding */
-    border-radius: 30px; /* Adjust border-radius for mobile */
-    margin-top: 50px; /* Adjust top margin to lower the form */
+    border-radius: 20px; /* Adjusted border-radius */
+    margin-top: 60px; /* Reduced margin */
+    padding-top: 1rem;
   }
 
   .logo {
-    text-align: center; /* Center the logo text on mobile */
+    text-align: center;
+    font-size: 1.8rem;
   }
 
   .form-group input,
   button {
     border-radius: 10px;
-    padding: 0.75rem; /* Adjust padding for inputs and buttons */
+    padding: 0.5rem; /* Reduced padding */
   }
 
   .social-widgets {
-    margin-top: 1.5rem; /* Ensure top margin for spacing */
+    margin-top: 1rem;
     display: flex;
-    justify-content: space-around; /* Space widgets evenly */
+    justify-content: space-around;
     width: 100%;
   }
 
   .social-widget {
-    margin: 0 0.25rem; /* Reduce horizontal margin for tighter spacing */
-    padding: 0.75rem; /* More consistent padding */
+    margin: 0 0.25rem;
+    padding: 0.5rem; /* Reduced padding */
   }
 
   .login-prompt {
-    margin-top: 1.5rem; /* Adjust top margin for spacing */
+    margin-top: 1rem; /* Reduced margin */
   }
 }
