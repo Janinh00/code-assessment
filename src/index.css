@@ -160,7 +160,7 @@ button:hover {
 }
 
 /* Adjustments for mobile devices */
-/* /* @media (max-width: 768px) { */
+  @media (max-width: 768px) { 
   .signup-container {
     justify-content: center;
     background-color: #e9f7e6;
