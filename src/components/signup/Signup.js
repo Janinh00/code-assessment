@@ -39,7 +39,7 @@ const Signup = () => {
         <div className="form-group">
           <label htmlFor="fullName">Full Name:</label>
           <input
-          placeholder='Enter your full name'
+          placeholder='Enter Your Full Name'
             type="text"
             id="fullName"
             value={fullName}
@@ -51,7 +51,7 @@ const Signup = () => {
         <div className="form-group">
           <label htmlFor="email">Email:</label>
           <input
-          placeholder='Enter your email'
+          placeholder='Enter Your Email'
             type="email"
             id="email"
             value={email}
@@ -63,7 +63,7 @@ const Signup = () => {
         <div className="form-group">
           <label htmlFor="password">Password:</label>
           <input
-          placeholder='Enter your password'
+          placeholder='Enter Your Password'
             type="password"
             id="password"
             value={password}
