@@ -55,15 +55,15 @@ const Signup = () => {
         <div className="social-widgets">
           <div className="social-widget">
             <img src={require('../../assets/Google__G__logo.svg.png')} alt="Google" className="social-logo" />
-            <span>Google</span>
+            {/* <span>Google</span> */}
           </div>
           <div className="social-widget">
             <img src={require('../../assets/Facebook_f_logo_(2019).svg.png')} alt="Facebook" className="social-logo" />
-            <span>Facebook</span>
+            {/* <span>Facebook</span> */}
           </div>
           <div className="social-widget">
             <img src={require('../../assets/Apple_logo_black.svg.png')} alt="Apple" className="social-logo" />
-            <span>Apple</span>
+            {/* <span>Apple</span> */}
           </div>
         </div>
       </form>
