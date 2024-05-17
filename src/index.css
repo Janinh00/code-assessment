@@ -1,11 +1,25 @@
 /* src/Signup.css */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
+
+/* Import Biko font */
+@font-face {
+  font-family: 'Biko';
+  src: url('./assets/Biko_Bold.otf') format('woff2'),
+       url('./assets/Biko_Regular.otf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use Biko font for all elements */
+body, .signup-container, .signup-form, .logo, .signup-form h2, .form-group label, .form-group input, button, .or, .social-widgets, .social-widget span, .login-prompt, .login-prompt a {
+  font-family: 'Biko', sans-serif;
+}
+
 
 .signup-container {
   display: flex;
@@ -17,7 +31,6 @@ body {
   background-size: 80%; /* Adjust the percentage as needed */
   background-position: center; 
   background-repeat: no-repeat; 
-  font-family: 'Roboto', sans-serif;
   overflow: hidden;
 }
 
@@ -162,7 +175,7 @@ button:hover {
 
   .logo {
     text-align: center;
-    font-size: 1.rem;
+    font-size: 2rem;
   }
 
   .form-group input,

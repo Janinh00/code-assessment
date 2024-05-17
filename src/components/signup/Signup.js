@@ -33,7 +33,7 @@ const Signup = () => {
     <div className="signup-container">
       <form onSubmit={handleSubmit} className="signup-form">
         <h1 className="logo">
-          &#123;IDEA Hackathon 2024&#125;
+          IDEA Hackathon 2024
         </h1>
         <h2>Create Account</h2>
         <div className="form-group">
