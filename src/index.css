@@ -160,7 +160,7 @@ button:hover {
 }
 
 /* Adjustments for mobile devices */
-/* @media (max-width: 768px) {
+/* /* @media (max-width: 768px) { */
   .signup-container {
     justify-content: center;
     background-color: #e9f7e6;
@@ -170,7 +170,8 @@ button:hover {
     background-repeat: no-repeat; 
     overflow-y :scroll;
     padding-left: 1rem;
-    padding-right: 1rem; */
+    padding-right: 1rem;
+  }
     /* padding: 2rem 1rem; Add some padding for better spacing */
   /* } */
 
