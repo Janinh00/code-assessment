@@ -1,13 +1,115 @@
+/* src/Signup.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  overflow: hidden; /* Prevent scrolling */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.signup-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  height: 100vh;
+  background-image: url('./assets/thumbnail.jpg'); /* Set the background image */
+  background-size: cover; /* Ensure the background image covers the container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden; /* Prevent scrolling */
+}
+
+.signup-form {
+  background-color: rgba(255, 255, 255, 0.9); /* Add semi-transparent white background to form */
+  padding: 2rem;
+  border-radius: 8px 0 0 8px;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+  width: 450px; /* Adjust this value to change the width of the form */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center the contents horizontally */
+}
+
+.logo {
+  color: #74a879;
+}
+
+.signup-form img.google-logo {
+  width: 100px; /* Adjust the size of the logo */
+  height: 100px; /* Ensure height is the same as width for a perfect circle */
+  margin-bottom: 1rem; /* Space between the logo and the heading */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the entire container without distortion */
+}
+
+.signup-form h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  width: 100%; /* Ensure form group takes full width */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+button {
+  width: 100%; /* Ensures the input fields and button have the same width */
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 20px; /* Makes the input fields and button curved */
+  box-sizing: border-box; /* Ensures padding doesn't affect the width */
+}
+
+button {
+  margin-top: 1rem; /* Adds space between the last input field and the button */
+  border: none;
+  background-color: #608564;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 0.75rem; /* Ensures button has adequate padding */
+}
+
+button:hover {
+  background-color: #537356;
+}
+
+.social-widgets {
+  margin-top: 1rem; /* Space between the sign-up button and social buttons */
+  display: flex; /* Display widgets horizontally */
+  justify-content: space-between; /* Space widgets evenly */
+  width: 100%; /* Ensure social buttons take full width */
+}
+
+.social-widget {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 0.5rem;
+  cursor: pointer;
+  flex: 1; /* Make all widgets equal width */
+  justify-content: center; /* Center the content horizontally */
+  margin: 0 0.5rem; /* Add space between widgets */
+}
+
+.social-widget img.social-logo {
+  width: 24px; /* Make the images smaller */
+  height: 24px;
+  margin-right: 0.5rem;
+}
+
+.social-widget span {
+  font-size: 0.875rem; /* Adjust font size */
 }
