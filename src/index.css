@@ -160,7 +160,7 @@ button:hover {
 }
 
 /* Adjustments for mobile devices */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .signup-container {
     justify-content: center;
     background-color: #e9f7e6;
@@ -170,11 +170,11 @@ button:hover {
     background-repeat: no-repeat; 
     overflow-y :scroll;
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 1rem; */
     /* padding: 2rem 1rem; Add some padding for better spacing */
   }
 
-  /* .signup-form {
+  .signup-form {
     width: 90%;
     max-width: 400px; 
     border-radius: 20px; 
@@ -182,7 +182,7 @@ button:hover {
     opacity: 1; 
     background-color: white;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
-  } */
+  }
 
   .signup-form {
     background-color: #fff;
