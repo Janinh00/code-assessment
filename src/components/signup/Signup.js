@@ -32,7 +32,7 @@ const Signup = () => {
   return (
     <div className="signup-container">
       <form onSubmit={handleSubmit} className="signup-form">
-        <h1 className="logo">Hackathon</h1>
+        <h1 className="logo centered-text">IDEA<br />hackathon<br />2024</h1>
         <h2>Create Account</h2>
         <div className="form-group">
           <label htmlFor="fullName">Full Name:</label>
@@ -68,7 +68,7 @@ const Signup = () => {
           />
         </div>
         <button type="submit">Sign Up</button>
-        <p>- Or Sign Up with -</p>
+        <p className="or">- Or Sign Up with -</p>
         <div className="social-widgets">
           <div className="social-widget">
             <img src={require('../../assets/Google__G__logo.svg.png')} alt="Google" className="social-logo" />

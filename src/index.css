@@ -14,7 +14,7 @@ body {
   height: 100vh;
   background-image: url('./assets/thumbnail.jpg'); 
   background-color: #e9f7e6;
-  background-size: cover; 
+  background-size: 80%; /* Adjust the percentage as needed */
   background-position: center; 
   background-repeat: no-repeat; 
   font-family: 'Roboto', sans-serif;
@@ -35,6 +35,10 @@ body {
 
 .logo {
   color: #74a879;
+}
+
+.hackathon {
+  color: black;
 }
 
 .signup-form img.google-logo {
@@ -84,6 +88,12 @@ button:hover {
   background-color: #537356;
 }
 
+.or {
+  color: gray; /* Set the text color to gray */
+  text-align: center;
+  margin: 1rem 0; /* Adjust the margin for spacing */
+}
+
 .social-widgets {
   margin-top: 1rem;
   display: flex;
@@ -107,6 +117,11 @@ button:hover {
   width: 24px;
   height: 24px;
   margin-right: 0.5rem;
+}
+
+/* src/Signup.css */
+.centered-text {
+  text-align: center;
 }
 
 .social-widget span {
@@ -150,6 +165,10 @@ button:hover {
     padding: 1.5rem; /* More consistent padding */
     border-radius: 30px; /* Adjust border-radius for mobile */
     margin-top: 50px; /* Adjust top margin to lower the form */
+  }
+
+  .logo {
+    text-align: center; /* Center the logo text on mobile */
   }
 
   .form-group input,
