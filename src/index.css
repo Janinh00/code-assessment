@@ -113,11 +113,32 @@ button:hover {
   font-size: 0.875rem;
 }
 
+.login-prompt {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+}
 
+.login-prompt a {
+  color: #608564;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.login-prompt a:hover {
+  text-decoration: underline;
+}
+
+/* Error state for input fields */
+.input-error {
+  border-color: red;
+}
+
+/* Adjustments for mobile devices */
 @media (max-width: 768px) {
   .signup-container {
-    justify-content: center; 
-    background-image: url('./assets/thumbnail2.png'); 
+    justify-content: center; /* Center the form on the screen */
+    background-image: url('./assets/thumbnail2.png'); /* New background image for mobile */
     background-color: #e9f7e6;
     background-size: cover; 
     background-position: center; 
@@ -126,26 +147,30 @@ button:hover {
 
   .signup-form {
     width: 90%;
-    padding: 1.5rem; 
-    border-radius: 30px; 
-    margin-top: 50px; 
+    padding: 1.5rem; /* More consistent padding */
+    border-radius: 30px; /* Adjust border-radius for mobile */
+    margin-top: 50px; /* Adjust top margin to lower the form */
   }
 
   .form-group input,
   button {
     border-radius: 10px;
-    padding: 0.75rem;
+    padding: 0.75rem; /* Adjust padding for inputs and buttons */
   }
 
   .social-widgets {
-    margin-top: 1.5rem; 
+    margin-top: 1.5rem; /* Ensure top margin for spacing */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; /* Space widgets evenly */
     width: 100%;
   }
 
   .social-widget {
-    margin: 0 0.25rem;
-    padding: 0.75rem; 
+    margin: 0 0.25rem; /* Reduce horizontal margin for tighter spacing */
+    padding: 0.75rem; /* More consistent padding */
+  }
+
+  .login-prompt {
+    margin-top: 1.5rem; /* Adjust top margin for spacing */
   }
 }

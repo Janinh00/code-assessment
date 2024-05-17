@@ -6,13 +6,27 @@ const Signup = () => {
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [isFullNameValid, setIsFullNameValid] = useState(true);
+  const [isEmailValid, setIsEmailValid] = useState(true);
+  const [isPasswordValid, setIsPasswordValid] = useState(true);
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    
+    // Simple validation checks
+    const isFullNameValid = fullName.trim() !== '';
+    const isEmailValid = email.trim() !== '';
+    const isPasswordValid = password.trim() !== '';
 
-    console.log('Full Name:', fullName);
-    console.log('Email:', email);
-    console.log('Password:', password);
+    setIsFullNameValid(isFullNameValid);
+    setIsEmailValid(isEmailValid);
+    setIsPasswordValid(isPasswordValid);
+
+    if (isFullNameValid && isEmailValid && isPasswordValid) {
+      console.log('Full Name:', fullName);
+      console.log('Email:', email);
+      console.log('Password:', password);
+    }
   };
 
   return (
@@ -27,6 +41,7 @@ const Signup = () => {
             id="fullName"
             value={fullName}
             onChange={(e) => setFullName(e.target.value)}
+            className={!isFullNameValid ? 'input-error' : ''}
             required
           />
         </div>
@@ -37,6 +52,7 @@ const Signup = () => {
             id="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            className={!isEmailValid ? 'input-error' : ''}
             required
           />
         </div>
@@ -47,6 +63,7 @@ const Signup = () => {
             id="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            className={!isPasswordValid ? 'input-error' : ''}
             required
           />
         </div>
@@ -55,17 +72,15 @@ const Signup = () => {
         <div className="social-widgets">
           <div className="social-widget">
             <img src={require('../../assets/Google__G__logo.svg.png')} alt="Google" className="social-logo" />
-            {/* <span>Google</span> */}
           </div>
           <div className="social-widget">
             <img src={require('../../assets/Facebook_f_logo_(2019).svg.png')} alt="Facebook" className="social-logo" />
-            {/* <span>Facebook</span> */}
           </div>
           <div className="social-widget">
             <img src={require('../../assets/Apple_logo_black.svg.png')} alt="Apple" className="social-logo" />
-            {/* <span>Apple</span> */}
           </div>
         </div>
+        <p className="login-prompt">Already have an account? <a href="/login">Log in</a></p>
       </form>
     </div>
   );
